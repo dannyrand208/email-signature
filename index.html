@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email Signature Directory</title>
+    <style>
+      :root {
+        --primary-color: #0d47a1;
+        --secondary-color: #1565c0;
+        --background-color: #f1f3f6;
+        --card-background: #ffffff;
+        --text-dark: #1b1f23;
+        --text-light: #6c757d;
+        --link-background: #f0f2f5;
+        --border-radius: 16px;
+        --shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Segoe UI", Arial, sans-serif;
+        background: var(--background-color);
+        color: var(--text-dark);
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 60px 20px;
+      }
+
+      h1 {
+        font-size: 2.8rem;
+        font-weight: 700;
+        color: var(--primary-color);
+        margin-bottom: 50px;
+        text-align: center;
+        letter-spacing: 1px;
+      }
+
+      .grid {
+        width: 100%;
+        max-width: 1200px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 32px;
+        padding: 0 20px;
+      }
+
+      .card {
+        background: var(--card-background);
+        border-radius: var(--border-radius);
+        box-shadow: var(--shadow);
+        padding: 32px 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        height: 100%;
+      }
+
+      .card h2 {
+        font-size: 1.4rem;
+        font-weight: 600;
+        margin-bottom: 20px;
+        color: var(--primary-color);
+        letter-spacing: 0.5px;
+      }
+
+      .links {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        width: 100%;
+      }
+
+      .link {
+        font-size: 1rem;
+        font-weight: 500;
+        text-decoration: none;
+        color: var(--secondary-color);
+        background: var(--link-background);
+        padding: 12px 16px;
+        border-radius: 10px;
+        border: 1px solid #e0e0e0;
+        display: inline-block;
+        transition: background-color 0.2s;
+      }
+
+      .link:hover {
+        background: #e3e8ef;
+      }
+
+      @media (max-width: 600px) {
+        h1 {
+          font-size: 2.2rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Email Signature Directory</h1>
+
+    <div class="grid">
+      <div class="card">
+        <h2>Michael Hiller</h2>
+        <div class="links">
+          <a class="link" href="michael_version_1.html" target="_blank"
+            >Version 1</a
+          >
+          <a class="link" href="michael_version_2.html" target="_blank"
+            >Version 2</a
+          >
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Reece Townsend</h2>
+        <div class="links">
+          <a class="link" href="reece_townsend_version_1.html" target="_blank"
+            >Version 1</a
+          >
+          <a class="link" href="reece_townsend_version_2.html" target="_blank"
+            >Version 2</a
+          >
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>James Hiller</h2>
+        <div class="links">
+          <a class="link" href="james_hiller.html" target="_blank"
+            >View Signature</a
+          >
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Belinda Smith</h2>
+        <div class="links">
+          <a class="link" href="belinda_smith.html" target="_blank"
+            >View Signature</a
+          >
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Jodie Drinnan</h2>
+        <div class="links">
+          <a class="link" href="jodie_drinnan.html" target="_blank"
+            >View Signature</a
+          >
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Julie Jamieson</h2>
+        <div class="links">
+          <a class="link" href="julie_jamieson.html" target="_blank"
+            >View Signature</a
+          >
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Madura Uhangoda</h2>
+        <div class="links">
+          <a class="link" href="madura_uhangoda.html" target="_blank"
+            >View Signature</a
+          >
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Michelle McNamara</h2>
+        <div class="links">
+          <a class="link" href="michelle_mcnamara.html" target="_blank"
+            >View Signature</a
+          >
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Neil Hiller</h2>
+        <div class="links">
+          <a class="link" href="neil_hiller.html" target="_blank"
+            >View Signature</a
+          >
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Sima Turunc</h2>
+        <div class="links">
+          <a class="link" href="sima_turunc.html" target="_blank"
+            >View Signature</a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
